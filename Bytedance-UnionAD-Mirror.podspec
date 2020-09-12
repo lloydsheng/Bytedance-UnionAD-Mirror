@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file =>  'Bytedance-UnionAD-' + s.version.to_s + '/LICENSE' }
     s.author           = { 'Siwant' => 'yuanhuan@bytedance.com' }
   
-    s.homepage         = 'https://github.com/bytedance/Bytedance-UnionAD'
+    s.homepage         = 'https://github.com/lloydsheng/Bytedance-UnionAD-Mirror'
     s.source           = { :http => 'https://pkg.imd.im/Bytedance-UnionAD/v'+ s.version.to_s + '.zip' }
     s.platform     = :ios, "9.0"  
     s.frameworks = 'UIKit', 'MapKit', 'WebKit', 'MediaPlayer', 'CoreLocation', 'AdSupport', 'CoreMedia', 'AVFoundation', 'CoreTelephony', 'StoreKit', 'SystemConfiguration', 'MobileCoreServices', 'CoreMotion', 'Accelerate'
