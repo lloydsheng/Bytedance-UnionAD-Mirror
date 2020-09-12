@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'Bytedance-UnionAD'
+    s.name             = 'Bytedance-UnionAD-Mirror'
     s.version          = '3.2.5.2'
     s.summary          = 'BUAdSDK is a SDK from Bytedance providing union AD service.'
     s.description      = <<-DESC
