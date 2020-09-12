@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     Bytedance provides Union ADs which include native、banner、feed、splash、RewardVideo etc.
                          DESC
   
-    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.license          = { :type => 'MIT', :file =>  'Bytedance-UnionAD-' + s.version.to_s + '/LICENSE' }
     s.author           = { 'Siwant' => 'yuanhuan@bytedance.com' }
   
     s.homepage         = 'https://github.com/bytedance/Bytedance-UnionAD'
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   
     #s.public_header_files = 'Bytedance-UnionAd/Classes/*.h'
     #s.source_files = 'Bytedance-UnionAd/Classes/*'
-    s.vendored_frameworks =  ['Bytedance-UnionAd/Frameworks/BUAdSDK.framework','Bytedance-UnionAd/Frameworks/BUFoundation.framework']
-    s.resource = 'Bytedance-UnionAd/Frameworks/BUAdSDK.bundle'
+    s.vendored_frameworks =  ['Bytedance-UnionAD-' + s.version.to_s + '/Bytedance-UnionAd/Frameworks/BUAdSDK.framework','Bytedance-UnionAD-' + s.version.to_s + '/Bytedance-UnionAd/Frameworks/BUFoundation.framework']
+    s.resource = 'Bytedance-UnionAD-' + s.version.to_s + '/Bytedance-UnionAd/Frameworks/BUAdSDK.bundle'
     # s.dependency 'AFNetworking', '~> 2.3'
     valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
   end
